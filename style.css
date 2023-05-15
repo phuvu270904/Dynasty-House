@@ -1,0 +1,303 @@
+    *{
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background-image: url(https://w.ladicdn.com/s1440x0/5e54ce64f4a6442c5ac64044/bg-20220802051820.jpg);
+
+}
+
+.menu_top{
+    border-bottom: 3px solid black;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(15, 38, 68);
+    list-style:none;
+    text-align: center;
+    height: 70px;
+}
+
+.item_menutop{
+    height: 70px;
+}
+
+.menutop{
+    position: relative;
+    display: block;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menutop li a img{
+    width: 70px;
+    margin-top: 10px;
+}
+
+.menutop li a{
+    color: rgb(246, 180, 102);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0px 20px 0px 20px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 70px;
+}
+
+.menutop li a:hover{
+    color: red;
+}
+
+.main img{
+    height: 100%;
+    width: 100%;
+}
+
+.main1{
+    display: block;
+    width: 1000px;
+    height: 900px;
+    margin: 0px auto;
+}
+
+.main1_left{
+    height: 700px;
+    width: 569px;
+    float: left;
+    display: block;
+    margin-top: 200px;
+}
+
+.main1_left img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.main1_right{
+    margin-top: 200px;
+    margin-left: 50px;
+    color: #F6B466;
+    width: 282px;
+    float: left;
+    height: 700px;
+
+}
+
+.main1_right h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main1_right p{
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+.main2{
+    width: 1000px;
+    height: 600px;
+    color: #F6B466;
+    margin: 0px auto;
+}
+
+.main2 h1{
+
+    line-height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.main2_left{
+    float: left;
+    width: 470px;
+    height: 400px;
+
+}
+
+.main2_left img{
+    width: 100%;
+}
+
+.main2_right{
+    float: left;
+    display: block;
+    height: 300px;
+    width: 480px;
+    margin-left: 50px;
+}
+
+.main2_right h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 25px;
+}
+
+.main2_right p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.xem_them{
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;    
+}
+
+
+.xem_them ul li{
+    background-image: url(Images/khung.png);
+    background-size: 200px 100px;
+    text-decoration: none;
+    display: block;
+        
+}
+
+.xem_them ul li a{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100px;
+    margin: 0px auto;
+    margin-left: 55px;
+}
+
+.main3{
+    margin: 0px auto;
+    width: 1000px;
+    height: 300px;
+}
+
+.main3_left{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    display: block;
+    width: 550px;
+    height: 300px;
+}
+
+.main3_left h1{
+    color:rgb(246, 180, 102);
+    line-height: 40px;
+    font-size: 32px;
+}
+
+.main3_left p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.main3_left a{
+    
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-size: 20px;
+}
+
+.main3_right{
+    margin-left: 50px;
+    float: left;
+    display: block;
+    width: 370px;
+    height: 220px;
+}
+
+.main3_right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer{
+    border-top: 3px solid rgb(246, 180, 102);
+    background:rgb(15, 38, 68);
+    overflow: auto;
+
+}
+
+.footer_setting{
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+
+.footer_left{
+    clear: left;
+    float: left;
+    display: block;
+    height: 400px;
+    width: 300px;
+}
+
+.footer_right{
+
+    float: left;
+    height: 400px;
+    width: 700px;
+}
+
+
+.footer_left img{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.contact{
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    height: auto;
+    margin: 0 auto;
+     padding: 10px;
+    position: relative;
+}
+
+.contact h1{
+    margin-top: 20px;
+    color: rgb(246, 180, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.facebook{
+    margin-left: 70px;
+}
+
+.contact svg{ 
+    width: 30px;
+    display: block;
+    float: left;
+    height: auto;
+    position: relative;
+    margin: 10px 30px 0px 0px;
+}
+
+.agency{
+    color:rgb(246, 180, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 70px;
+}
+
